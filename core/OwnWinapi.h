@@ -1,1 +1,8 @@
 #pragma once
+#include "ntdefs.hpp"
+#include "peb.hpp"
+#include "list_entry.hpp"
+#include "rtl_structs.hpp"
+#include "utils.h"
+#include "unicode_string.hpp"
+#include "GetModuleHandleW.h"
