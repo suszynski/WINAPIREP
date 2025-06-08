@@ -6,3 +6,4 @@
 #include "utils.h"
 #include "unicode_string.hpp"
 #include "GetModuleHandleW.h"
+#include "GetCurrentProcessId.h"
