@@ -44,35 +44,9 @@ Each API function is isolated in its own directory and includes:
 
 ---
 
-## Repository Structure
-
-windows-api-replication/
-│
-├── README.md
-├── LICENSE
-├── CMakeLists.txt                # Optional build config
-│
-├── core/                         # Shared low-level helpers
-│   ├── peb.h / peb.cpp
-│   ├── utils.h / utils.cpp
-│
-├── functions/                    # One folder per replicated API
-│   └── GetModuleHandleW/
-│       ├── description.md
-│       ├── GetModuleHandleW.h
-│       └── GetModuleHandleW.cpp
-│
-├── include/
-│   └── own_api.h                 # Aggregated public interface
-│
-└── examples/
-    └── main.cpp                  # Sample usage
-
----
-
 ## License
 
-This project is released under the ['MIT License'](LICENSE)
+This project is released under the [MIT License](LICENSE)
 
 ---
 
