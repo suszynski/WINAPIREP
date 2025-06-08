@@ -28,17 +28,17 @@ Due to structure layout differences between OS versions and architectures, this 
 
 ---
 
-## 🛠️ Implemented Functions
+## Implemented Functions
 
 Each API function is isolated in its own directory and includes:
 - A technical description (`description.md`)
 - Header and implementation files
-- Usage examples (see `examples/`)
 
-### ✔️ Completed
+### Completed
 - [`GetModuleHandleW`](functions/GetModuleHandleW/description.md)
+- [`GetCurrentProcessId`](functions/GetCurrentProcessId/description.md)
 
-### 🧩 In Progress
+### In Progress
 - `GetProcAddress`
 - `NtQueryInformationProcess`
 
