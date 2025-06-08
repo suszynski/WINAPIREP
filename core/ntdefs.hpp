@@ -1,4 +1,5 @@
 #pragma once
+#include <cstdint>
 
 #define IN
 #define OPTIONAL
@@ -18,4 +19,6 @@ namespace own::ntdefs {
 	using ULONGLONG = unsigned long long;
 	using LONG = long;
 	using LONGLONG = long long;
+	using DWORD = std::int32_t;
+
 }
