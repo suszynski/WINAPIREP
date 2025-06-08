@@ -39,8 +39,9 @@ Each API function is isolated in its own directory and includes:
 - [`GetCurrentProcessId`](functions/GetCurrentProcessId/description.md)
 
 ### In Progress
-- `GetProcAddress`
-- `NtQueryInformationProcess`
+- `GetCurrentThreadId`
+- `LoadLibraryW`
+- `lstrlenW`
 
 ---
 
