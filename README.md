@@ -53,4 +53,4 @@ This project is released under the [MIT License](LICENSE)
 
 ## Disclaimer
 
-Structure definitions are version-specific and not guaranteed to be portable.
+Structure definitions are version-specific and not guaranteed to be portable. This code takes advantage of MSVC intrinsic's in order to access GS/FS registers so modifying code may be required when using other compiler.  
