@@ -9,7 +9,7 @@ Steps:
 2. Traverse the linked list of loaded modules.
 3. Compare the `BaseDllName.Buffer` of each `_LDR_DATA_TABLE_ENTRY` to the provided module name.
 4. Return the `DllBase` if a match is found.
-5. If the `moduleName` argument is `nullptr`, return the image base address of the current process.
+5. If the `moduleName` argument is `nullptr`, return the image base address of the process's .exe executable file.
 
 ## Limitations
 
